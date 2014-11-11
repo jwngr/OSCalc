@@ -1,0 +1,35 @@
+{
+  "name": "oscalc",
+  "description": "An open source calculator library demonstrating how to maintain an open source project",
+  "version": "0.0.0",
+  "authors": [
+    "Jacob Wenger <wenger.jacob@gmail.com> (http://www.jacobawenger.com/)"
+  ],
+  "homepage": "https://github.com/jwngr/oscalc/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwngr/oscalc.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gun.io",
+    "calculator"
+    "open source"
+  ],
+  "main": [
+    "dist/oscalc.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "src",
+    "tests",
+    "examples",
+    "node_modules",
+    "bower_components",
+    "package.json"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
