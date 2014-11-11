@@ -6,11 +6,15 @@ used in a production application.
 
 You can follow along the development of this library on the [Gun.io blog](https://gun.io/blog/).
 
-
-## Downloading OSCalc
-
 __Note: OSCalc is currently not available to be downloaded since it does not yet exist. These
 instructions are just for demonstration purposes at the moment.__
+
+## Live Demo
+
+Live demos coming soon!
+
+
+## Downloading OSCalc
 
 In order to use OSCalc in your project, you need to include the file in your HTML:
 
@@ -33,9 +37,9 @@ $ bower install oscalc --save
 ```
 
 
-## Usage
+## API Reference
 
-Usage instructions for OSCalc will go here once the library has been written.
+An API reference for OSCalc will go here once the library has been written.
 
 
 ## Contributing
