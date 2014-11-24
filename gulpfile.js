@@ -13,14 +13,15 @@ var uglify = require("gulp-uglify");
 /*  TASKS  */
 /***********/
 /* Lints, minifies, and concatenates the script files */
-gulp.task("scripts", function() {
+gulp.task("build", function() {
+  // Create a stream from the source files
   return gulp.src("src/**/*.js")
     // Lint
     .pipe(jshint())
     .pipe(jshint.reporter("jshint-stylish"))
     .pipe(jshint.reporter("fail"))
 
-    // Write un-minified version
+    // Write the un-minified version to the distribution directory
     .pipe(gulp.dest("dist"))
 
     // Minify
@@ -28,20 +29,17 @@ gulp.task("scripts", function() {
       preserveComments: "some"
     }))
 
-    // Rename file
+    // Rename the minified file
     .pipe(concat("oscalc.min.js"))
 
-    // Write minified version to the distribution directory
+    // Write the minified file to the distribution directory
     .pipe(gulp.dest("dist"));
 });
 
-/* Re-runs the "scripts" task every time a script file changes */
+/* Re-builds the distribution files every time a source file changes */
 gulp.task("watch", function() {
-  gulp.watch(["src/**/*.js"], ["scripts"]);
+  gulp.watch(["src/**/*.js"], ["build"]);
 });
 
-/* Builds the distribution files */
-gulp.task("build", ["scripts"]);
-
-/* Runs the "test" and "scripts" tasks by default */
+/* Runs the scripts" tasks by default */
 gulp.task("default", ["build"]);
