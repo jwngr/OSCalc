@@ -13,9 +13,9 @@ instructions are just for demonstration purposes at the moment.__
 ## Blog Posts
 
 1. [Project Organization](https://gun.io/blog/maintaining-an-open-source-project/)
-2. Automating Tasks With gulp.js (coming soon)
-3. Testing, Testing, Testing (coming soon)
-4. Deploying To The World (coming soon)
+2. Automating Tasks With gulp.js *(coming soon)*
+3. Testing, Testing, Testing *(coming soon)*
+4. Deploying To The World *(coming soon)*
 
 
 ## Live Demo
