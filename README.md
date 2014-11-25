@@ -22,7 +22,7 @@ Live demos coming soon!
 
 ## Downloading OSCalc
 
-** WARNING: This library is not yet available and the following section is just a placeholder. **
+**WARNING: This library is not yet available and the following section is just a placeholder.**
 
 In order to use OSCalc in your project, you need to include the file in your HTML:
 
@@ -60,10 +60,10 @@ var calc = new OSCalc();
 Returns the sum of two numbers, `a` and `b`.
 
 ```javascript
-calc.add(2, 2);     // === 4
-calc.add(-2, 2);    // === 0
-calc.add(5.2, 2.4); // === 7.6
-calc.add(0, -6.7);  // === -6.7
+calc.add(2, 2);      // === 4
+calc.add(-2, 2);     // === 0
+calc.add(5.2, 2.4);  // === 7.6
+calc.add(0, -6.7);   // === -6.7
 ```
 
 ### subtract(a, b)
@@ -71,10 +71,10 @@ calc.add(0, -6.7);  // === -6.7
 Returns the difference between two numbers. `b` is subtracted from `a`.
 
 ```javascript
-calc.add(2, 2);     // === 4
-calc.add(-2, 2);    // === 0
-calc.add(5.2, 2.4); // === 7.6
-calc.add(0, -6.7);  // === -6.7
+calc.subtract(2, 2);      // === 0
+calc.subtract(-2, 2);     // === -4
+calc.subtract(5.2, 2.4);  // === 2.8
+calc.subtract(0, -6.7);   // === 6.7
 ```
 
 ### multiply(a, b)
@@ -82,10 +82,10 @@ calc.add(0, -6.7);  // === -6.7
 Returns the product of two numbers, `a` and `b`.
 
 ```javascript
-calc.add(2, 2);     // === 4
-calc.add(-2, 2);    // === 0
-calc.add(5.2, 2.4); // === 7.6
-calc.add(0, -6.7);  // === -6.7
+calc.multiply(2, 2);      // === 4
+calc.multiply(-2, 2);     // === -4
+calc.multiply(5.2, 2.4);  // === 12.48
+calc.multiply(0, -6.7);   // === 0
 ```
 
 ### divide(a, b)
@@ -93,10 +93,10 @@ calc.add(0, -6.7);  // === -6.7
 Returns the quotient of two numbers, where `a` is the dividend and `b` is the divisor.
 
 ```javascript
-calc.add(2, 2);     // === 4
-calc.add(-2, 2);    // === 0
-calc.add(5.2, 2.4); // === 7.6
-calc.add(0, -6.7);  // === -6.7
+calc.divide(2, 2);     // === 1
+calc.divide(-2, 2);    // === -1
+calc.divide(5.2, 2.4); // === 2.166...
+calc.divide(0, -6.7);  // === 0
 ```
 
 ## Contributing
