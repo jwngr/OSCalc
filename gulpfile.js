@@ -20,6 +20,9 @@ gulp.task("build", function() {
     .pipe(jshint())
     .pipe(jshint.reporter("jshint-stylish"))
     .pipe(jshint.reporter("fail"))
+    .on("error", function(error) {
+      throw error;
+    })
 
     // Write the un-minified version to the distribution directory
     .pipe(gulp.dest("dist"))
