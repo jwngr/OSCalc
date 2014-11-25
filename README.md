@@ -10,7 +10,7 @@ used in a production application.
 You can follow along the development of this library on the [Gun.io blog](https://gun.io/blog/).
 
 1. [Project Organization](https://gun.io/blog/maintaining-an-open-source-project/)
-2. Automating Tasks With Gulp *(coming soon)*
+2. [Automating Tasks With Gulp](https://gun.io/blog/maintaining-an-open-source-project-automating-tasks-with-gulp/)
 3. Testing, Testing, Testing *(coming soon)*
 4. Deploying To The World *(coming soon)*
 
